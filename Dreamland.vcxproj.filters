@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{74c1a624-72db-407c-bde7-933cdd7dc2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matchers">
+      <UniqueIdentifier>{82ea36ef-f035-4efa-baef-30fa13d35a68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Headers">
+      <UniqueIdentifier>{8bd65651-c9ae-4576-a04d-07d4f4358cce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Sources">
+      <UniqueIdentifier>{a57aede8-2ca0-4f88-8ac8-e36434e40f79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matchers\Headers">
+      <UniqueIdentifier>{0f17e7b2-6394-4b74-a080-c632ba6cc1b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Matchers\Sources">
+      <UniqueIdentifier>{2d9cea62-78f0-4a78-9dd8-217ede6e4165}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{7d7b8be3-3262-402f-8548-80f02c3068da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builders">
+      <UniqueIdentifier>{11c19403-6801-4464-804a-9f38ec09358f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builders\Headers">
+      <UniqueIdentifier>{34b1bbed-f865-4029-a1ec-9770cc9bc8f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builders\Sources">
+      <UniqueIdentifier>{454dd7e9-7f6e-42c2-898b-8b49fdaf69a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Estimators">
+      <UniqueIdentifier>{6a345159-c65b-442c-a9fb-f1f0c6dbb0db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solvers">
+      <UniqueIdentifier>{bf4a21b9-3bb0-4f34-a3be-4882240fc6ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipelines">
+      <UniqueIdentifier>{672bea5b-421e-47b5-a4c0-e0b7e411f702}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Estimators\Headers">
+      <UniqueIdentifier>{0629643a-7d7c-4e8c-82fc-eda659c4cfe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Estimators\Sources">
+      <UniqueIdentifier>{d56260b2-1aaa-43b6-8920-8455ce7cf734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solvers\Headers">
+      <UniqueIdentifier>{36f3c87e-ceb2-4b34-aede-e2ef0ba200dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Solvers\Sources">
+      <UniqueIdentifier>{e499e276-42f7-45cd-8df2-ea224d2f4a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Headers">
+      <UniqueIdentifier>{71cbfdcb-0e43-43b2-b304-26629e622877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\Sources">
+      <UniqueIdentifier>{77808ca7-dadf-47d6-8f1f-29641d0505fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CameraModels">
+      <UniqueIdentifier>{396d2573-c472-4f88-a955-3b4d9dddb6dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pools">
+      <UniqueIdentifier>{bd5ca2df-8bb4-4781-9f62-2df4e59ae5df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pools\Headers">
+      <UniqueIdentifier>{830fc0ca-afed-4b51-b110-85c54be131d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pools\Sources">
+      <UniqueIdentifier>{89b0305b-3c93-4460-85e4-348da42ba4e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RANSAC">
+      <UniqueIdentifier>{c09874d8-2b0d-4285-a13d-f96a9efc0a4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RANSAC\Header">
+      <UniqueIdentifier>{59132396-5fa0-45c5-9bb5-eac12c278526}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RANSAC\Source">
+      <UniqueIdentifier>{53ce5166-d4de-43dc-b1f8-841ce4b19f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Validators">
+      <UniqueIdentifier>{4e6a8599-d394-4718-8fe0-b279334c207e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Validators\Headers">
+      <UniqueIdentifier>{53420952-5591-4678-a138-57d2ac2cd25c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Validators\Sources">
+      <UniqueIdentifier>{73f36d40-4504-4351-a54b-86f469f9243e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pipelines\Headers">
+      <UniqueIdentifier>{3b340808-e69b-4957-8719-7297929bea78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\FeatureExtractor.h">
+      <Filter>Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FeatureMatcher.h">
+      <Filter>Matchers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EpiGraphBuilder.h">
+      <Filter>Builders\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TracksBuilder.h">
+      <Filter>Builders\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RootSiftGPU.h">
+      <Filter>Features\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\BruteForceMatcher.h">
+      <Filter>Matchers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RelativeTransformsEstimator.h">
+      <Filter>Estimators\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlobalTranslationsEstimator.h">
+      <Filter>Estimators\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlobalRotationsEstimator.h">
+      <Filter>Estimators\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CeresBA.h">
+      <Filter>Solvers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FivePointsEstimator.h">
+      <Filter>Estimators\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EpipolarGraph.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlobalTransform.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MatchFrame.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RelativeTransform.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Scene.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Tracks.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PinholeDistortK1.hpp">
+      <Filter>CameraModels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PinholeDistortK2.hpp">
+      <Filter>CameraModels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PinholeDistortK2P2.hpp">
+      <Filter>CameraModels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PinholeDistortK3P2.hpp">
+      <Filter>CameraModels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Pinhole.hpp">
+      <Filter>CameraModels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CameraIntrinsic.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CameraExtrinsic.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FeaturePoolInMemory.h">
+      <Filter>Pools\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MatchPoolInMemory.h">
+      <Filter>Pools\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FeaturePool.h">
+      <Filter>Pools\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MatchPool.h">
+      <Filter>Pools\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Camera.h">
+      <Filter>CameraModels</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ViewCameraBinder.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Triangulator.h">
+      <Filter>Solvers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\FlannMatcher.h">
+      <Filter>Matchers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utils.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\LinearRotationsAveraging.h">
+      <Filter>Estimators\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PairwiseMatch.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TripletMatch.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RobustRotationsAveraging.h">
+      <Filter>Estimators\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TripletsBuilder.h">
+      <Filter>Builders\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Triplets.h">
+      <Filter>Common\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PairwiseTransformValidator.h">
+      <Filter>Validators\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TripletTranslationsValidator.h">
+      <Filter>Validators\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MatcherUtils.h">
+      <Filter>Matchers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RansacKernel.hpp">
+      <Filter>RANSAC\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Ransac.hpp">
+      <Filter>RANSAC\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="src\CasHashMatcher.h">
+      <Filter>Matchers\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\TrilinearTranslationsAveraging.h">
+      <Filter>Estimators\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GlobalSfM.h">
+      <Filter>Pipelines\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RejectEdgeByTranslation.h">
+      <Filter>Pipelines\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RejectEdgeByRotation.h">
+      <Filter>Pipelines\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RefineRelativeTranslationsWithKnownRotations.h">
+      <Filter>Pipelines\Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EpiGraphBuilder.cpp">
+      <Filter>Builders\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TracksBuilder.cpp">
+      <Filter>Builders\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RootSiftGPU.cpp">
+      <Filter>Features\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\BruteForceMatcher.cpp">
+      <Filter>Matchers\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FivePointsEstimator.cpp">
+      <Filter>Estimators\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MatchFrame.cpp">
+      <Filter>Common\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Scene.cpp">
+      <Filter>Common\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Tracks.cpp">
+      <Filter>Common\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CeresBA.cpp">
+      <Filter>Solvers\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FeaturePoolInMemory.cpp">
+      <Filter>Pools\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MatchPoolInMemory.cpp">
+      <Filter>Pools\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ViewCameraBinder.cpp">
+      <Filter>Common\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Triangulator.cpp">
+      <Filter>Solvers\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\FlannMatcher.cpp">
+      <Filter>Matchers\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utils.cpp">
+      <Filter>Common\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LinearRotationsAveraging.cpp">
+      <Filter>Estimators\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RobustRotationsAveraging.cpp">
+      <Filter>Estimators\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TripletsBuilder.cpp">
+      <Filter>Builders\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\PairwiseTransformValidator.cpp">
+      <Filter>Validators\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GlobalSfM.cpp">
+      <Filter>Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TripletTranslationsValidator.cpp">
+      <Filter>Validators\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MatcherUtils.cpp">
+      <Filter>Matchers\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\CasHashMatcher.cpp">
+      <Filter>Matchers\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TrilinearTranslationsAveraging.cpp">
+      <Filter>Estimators\Sources</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RejectEdgeByRotation.cpp">
+      <Filter>Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RefineRelativeTranslationsWithKnownRotations.cpp">
+      <Filter>Pipelines</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RejectEdgeByTranslation.cpp">
+      <Filter>Pipelines</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
